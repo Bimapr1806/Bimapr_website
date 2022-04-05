@@ -1,0 +1,50 @@
+/* Based component */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Layout component */
+
+.header,
+.main,
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.main {
+    height: 100vh;
+}
+
+.main,
+.footer {
+    margin-left: 15vw;
+    width: 85vw;
+}
+
+.header {
+    width: 15vw;
+    position: absolute;
+}
+
+.main {
+    position: relative;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+}
